@@ -1,0 +1,48 @@
+/* style.css */
+body {
+    font-family: 'Bromello';
+    text-align: center;
+    background-color: pink;
+    color: maroon;
+    margin-top: 50px;
+}
+
+#main-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#message {
+    color: darkred;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.2); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+#response img {
+    animation: heartbeat 2s infinite;
+}
