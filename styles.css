@@ -1,6 +1,6 @@
-/* style.css */
+
 body {
-    font-family: 'Bromello';
+    font-family: 'Poppins';
     text-align: center;
     background-color: pink;
     color: maroon;
@@ -18,6 +18,10 @@ body {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+#dancing-cat {
+    height: 500px;
 }
 
 
